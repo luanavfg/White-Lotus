@@ -1,0 +1,69 @@
+.suites-cabecalho {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.suites-cabecalho h2 {
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.suites-cabecalho p {
+    align-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.carrossel-suites {
+    margin-top: 5px;
+}
+
+.box-suite {
+    height: 200px;
+    display: block;
+    position: relative;
+    min-width: 100%;
+}
+
+.box-suite:hover {
+    transition: transform 0.3s;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.beneficios-suites h3 {
+    color: #30373D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 2rem;
+    padding: 2rem 4rem 2rem 4rem;
+    text-align: center;
+}
+
+.beneficios-icones {
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-top: 3rem;
+}
+
+.icone {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icone p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    text-align: center;
+}

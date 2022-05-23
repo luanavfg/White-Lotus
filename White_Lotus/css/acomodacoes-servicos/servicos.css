@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+}
+
+.servicos {
+    background: linear-gradient(#fdfdfd, rgba(0,0,0,.50),rgba(0,0,0,.50)) 100%, url("../../img/Hotel/hotel_noite.jpg");
+    background-size:cover;
+    color: #30373D;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.servicos-cabecalho {
+    font-weight: 400;
+}
+
+.servicos-cabecalho h3 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.servicos-cabecalho p {
+    align-self: center;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.servicos-corpo {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.atividades {
+    align-self: center;
+    align-items: center;
+    background: #fdfdfd9f;
+    border: 2px solid #30373D;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.atividades-imagem {
+    box-shadow: 1rem 1rem 1rem #666955;
+    height: fit-content;
+    width: 250px;
+}
+
+.atividades-nome {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-align: center;
+}

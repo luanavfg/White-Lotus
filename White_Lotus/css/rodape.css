@@ -1,0 +1,49 @@
+.rodape {
+    align-items: center;
+    background: #30373d;
+    color: #fdfdfd;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    height: 3rem;
+    justify-content: space-around;
+    line-height: 0;
+    width: 100%;
+}
+
+.rodape__contatos {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+}
+
+.rodape__redes-sociais {
+    color: #fdfdfd;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 10%;
+}
+
+.rodape__redes-sociais a {
+    color: #fdfdfd;
+}
+
+.rodape__redes-sociais:hover {
+    color: #fdfdfd;
+}
+
+.rodape__email {
+    font-size: 0.9rem;
+}
+
+.rodape__nome {
+    align-self: right;
+    font-size: 0.8rem;
+}
+
+.rodape__nome a {
+    color: #fdfdfd;
+}
