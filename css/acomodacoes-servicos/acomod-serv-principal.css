@@ -1,0 +1,32 @@
+.acomod-serv__principal {
+    align-items: center;
+    background: linear-gradient(rgba(253, 253, 253, .5), rgba(253, 253, 253, .5)), url(../../img/bg-estampa.png);
+    background-size: cover;
+    color: #30373d;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 300px;
+    justify-content: space-evenly;
+    padding: 1.5rem 2rem 2rem 2rem;
+}    
+
+.acomod-serv__principal-titulo {
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 600; 
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+.fa-hotel {
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 500; 
+}
+
+.acomod-serv__principal-subtitulo {
+    align-self: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

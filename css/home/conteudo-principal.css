@@ -1,0 +1,36 @@
+.conteudo__principal {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    text-align: center;
+}
+
+.conteudo__principal-imagem {
+    height: auto;
+    width: 100%;
+}
+
+.conteudo__principal-descricao {
+    background: linear-gradient(#666955, #989e7f, #fdfdfd);
+    color: #30373d;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: none;
+}
+
+.conteudo__principal-titulo {
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    text-transform: uppercase;
+}
+
+.conteudo__principal-mensagem {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+}

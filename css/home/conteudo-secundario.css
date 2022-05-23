@@ -1,0 +1,45 @@
+.conteudo__secundario {
+    align-items: center;
+    border: 0.3rem solid #666955;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+}
+
+.conteudo__secundario-imagem {
+    box-shadow: 1rem 1rem 1rem #666955;
+    width: 45%;
+}
+
+.conteudo__secundario-mensagem {
+    align-self: flex-start;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 4.5rem;
+    text-align: left;
+}
+
+.conteudo__secundario-icones {
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2.5rem;
+    padding-top: 3rem;
+}
+
+.icone__praia, .icone__dot, .icone__pata-cachorro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icone__praia p, .icone__dot p, .icone__pata-cachorro p {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    text-align: center;
+} 

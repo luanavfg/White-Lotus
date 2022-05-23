@@ -1,0 +1,45 @@
+.cabecalho {
+    background: #30373d;
+    color: #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.cabecalho__logotipo {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    width: 10%;
+}
+
+.cabecalho__titulo {
+    align-self: center;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__lista {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-right: 1rem;
+    width: 450px;
+}
+
+.cabecalho__itens a {
+    color: #fdfdfd;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cabecalho__itens a:hover, .cabecalho__itens a.ativo {
+    text-decoration: underline;
+    font-weight: 400;
+}
